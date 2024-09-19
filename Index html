@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+    <title>Em busca de uma visita em Campinas</title>
+
+</head>
+
+<body>
+
+    <main>
+
+        <div class="passo ativo" id="passo-0">
+
+            <img src="cenario-passo0.png" alt="">
+
+            <p>Um dia desses, desiti conhecer a cidade de Campinas,mas meu GPS parou de funcionar.</p>
+
+            <button class="btn-proximo" data-proximo="1">Você ligar pra minha mãe para me ajudar</button>
+
+            <button class="btn-proximo" data-proximo="2">Tenta seguir o caminho sozinha e encontrar a cidade de Campinas</button>
+
+        </div>
+
+        <div class="passo" id="passo-1">
+
+            <p>Você escolheu ligar para sua mãe,ela atendeu e falou para você seguir as placas de trânsito que você encontrará a cidade de campinas.</p>
+
+            <button class="btn-proximo" data-proximo="3">Você encontrou ou as placas de trânsito e continuou seu caminho</button>
+
+            <button class="btn-proximo" data-proximo="4">Acabou se perdendo tentando ir sozinha e volta para casa</button>
+          
+
+        </div>
+
+        <div class="passo" id="passo-2">
+
+            <p>Em campinas, você acaba se deparando com a casa da sua avó pois foi visita-la e ao chegar você.</p>
+
+            <button class="btn-proximo" data-proximo="5">Foi dar um abraço apertado nela</button>
+
+            <button class="btn-proximo" data-proximo="6">Vai tomar o seu café da tarde porque a viagem de teu muita fome</button>
+
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
