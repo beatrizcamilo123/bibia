@@ -11,23 +11,26 @@
 </head>
 <body>
     <main>
+
         <div class="passo ativo" id="passo-0">
             <img src="cenario-passo0.png" alt="">
             <p>Um dia desses, desiti conhecer a cidade de Campinas,mas meu GPS parou de funcionar.</p>
             <button class="btn-proximo" data-proximo="1">Você ligar pra minha mãe para me ajudar</button>
             <button class="btn-proximo" data-proximo="2">Tenta seguir o caminho sozinha e encontrar a cidade de Campinas</button>
         </div>
+
         <div class="passo" id="passo-1">
             <p>Você escolheu ligar para sua mãe,ela atendeu e falou para você seguir as placas de trânsito que você encontrará a cidade de campinas.</p>
             <button class="btn-proximo" data-proximo="3">Você encontrou ou as placas de trânsito e continuou seu caminho</button>
             <button class="btn-proximo" data-proximo="4">Acabou se perdendo tentando ir sozinha e volta para casa</button>
-
         </div>
+
         <div class="passo" id="passo-2">
             <p>Em campinas, você acaba se deparando com a casa da sua avó pois foi visita-la e ao chegar você.</p>
             <button class="btn-proximo" data-proximo="5">Foi dar um abraço apertado nela</button>
             <button class="btn-proximo" data-proximo="6">Vai tomar o seu café da tarde porque a viagem de teu muita fome</button>
         </div>
+
     </main>
     <script src="script.js"></script>
 </body>
